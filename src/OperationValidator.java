@@ -9,5 +9,6 @@ public class OperationValidator {
                     "To nie jest znak działania matematycznego!");
 
         //abc
+        //jjkk
     }
 }
