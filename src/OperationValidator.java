@@ -8,8 +8,6 @@ public class OperationValidator {
             throw new UnsupportedOperationException(
                     "To nie jest znak działania matematycznego!");
 
-        //abc
     }
 }
-//kome
-//comment
+//komentarz
