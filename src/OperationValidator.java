@@ -7,5 +7,7 @@ public class OperationValidator {
                 !działanie.trim().matches("[+-/*]/g"))
             throw new UnsupportedOperationException(
                     "To nie jest znak działania matematycznego!");
+
+        //abc
     }
 }
