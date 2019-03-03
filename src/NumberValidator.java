@@ -3,7 +3,7 @@ public class NumberValidator {
         try {
             Double.parseDouble(liczba1);
         } catch (IllegalArgumentException e) {
-            System.out.println("Nie wpisałaś/eś liczby.");
+            System.out.println("Wpisałeś nieprawidłową wartość.");
         }
     }
 }
