@@ -1,6 +1,6 @@
 public class KalkulatorApp {
     public static void main(String[] args) {
-        String działanie = InputManager.getOperation();
+        String działanie = InputManager.getOperation(); 
         try {
             OperationValidator.validate(działanie); //todo obsługa wyjatku
         }catch (IllegalAccessException e){
