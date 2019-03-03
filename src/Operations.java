@@ -1,20 +1,18 @@
 public class Operations {
-    public static int giveAnswer(String działanie, Integer liczba1, Integer liczba2) {
+    public static int giveAnswer(String działanie, String liczba1, String liczba2) {
 
         switch (działanie) {
             case "+":
-                return (liczba1 + liczba2);
+                return (Integer.valueOf(liczba1) + Integer.valueOf(liczba2));
             case "-":
-                return (liczba1 - liczba2);
+                return (Integer.valueOf(liczba1) - Integer.valueOf(liczba2));
             case "*":
-                return (liczba1 * liczba2);
+                return (Integer.valueOf(liczba1) * Integer.valueOf(liczba2));
             case "/":
-                if (liczba2 == 0) {
-                    System.out.println("Nie dziel cholero przez zero.");
-                } else {
-                    return (liczba1 / liczba2);
+                    return (Integer.valueOf(liczba1) + Integer.valueOf(liczba2));
+            default:
+                throw new IllegalArgumentException();
                 }
         }
-        return 000000;
     }
-}
+
