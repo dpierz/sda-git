@@ -1,5 +1,7 @@
 public class InputManager {
     public static String getOperation() {
+
+
         throw new NoSuchMethodError();
     }
 
